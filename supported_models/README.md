@@ -90,8 +90,11 @@ image tag = auto-gen-$benchname
 | 60 | mobilenet_v2_quantized_qat      | ONLYCPU 12534 MiB |
 | 61 | mobilenet_v3_large              | MODEL DOWNLOAD FAIL |
 | 62 | moco                            | BUILD FAIL NEED GPU |
-| 63 | moondream                       | |
-| 64 | nanogpt                         | |
-
+| 63 | moondream                       | 6114 MiB NO IMP   |
+| 64 | nanogpt                         | 1036 MiB 2948 MiB |
+| 65 | nvidia_deeprecommender          | 1884 MiB 4280 MiB |
+| 66 | opacus_cifar10                  | 618 MiB 3658 MiB  |
+| 67 | phlippe_densenet                | 954 MiB 2146 MiB  |
+| 68 | phlippe_resnet                  | 588 MiB 756 MiB   |
 
 
