@@ -37,7 +37,7 @@ Autogeneration model results:
 image tag = auto-gen-$benchname
 
 |No. | Model  | Memory Usage (eval train) |
-|--------|---------------------------|
+|----|--------|---------------------------|
 | 11 | dcgan | 752 MiB 728 MiB |
 | 12 |demucs | 4350 MiB 52454 MiB |
 | 13 |densenet121 | 1448 MiB 36314 MiB |
