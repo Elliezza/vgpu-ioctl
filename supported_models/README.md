@@ -36,19 +36,48 @@ eval: python run.py -d cuda -t eval $benchname
 Autogeneration model results:
 image tag = auto-gen-$benchname
 
-|No. | Model  | Memory Usage (eval train) |
-|----|--------|---------------------------|
-| 11 | dcgan | 752 MiB 728 MiB |
-| 12 |demucs | 4350 MiB 52454 MiB |
-| 13 |densenet121 | 1448 MiB 36314 MiB |
-| 14 |detectron2_fasterrcnn_r_101_c4  | 3348 MiB 5426 MiB |
-| 15 |detectron2_fasterrcnn_r_101_dc5 | 2576 MiB 5188 MiB |
-| 16 |detectron2_fasterrcnn_r_101_fpn | 2262 MiB 3752 MiB |
-| 17 |detectron2_fasterrcnn_r_50_c4   | 3260 MiB 5002 MiB |
-| 18 |detectron2_fasterrcnn_r_50_dc5  | 2502 MiB 4692 MiB |
-| 19 |detectron2_fasterrcnn_r_50_fpn  | 2206 MiB 3132 MiB | 
-| 20 |detectron2_fcos_r_50_fpn | 2200 MiB 554 MiB |
-| 21 |detectron2_maskrcnn | 2340 MiB 3298 MiB |
+|No. | Model                           | Memory Usage (eval train) |
+|----|---------------------------------|---------------------------|
+| 11 | dcgan                           | 752 MiB 728 MiB |
+| 12 | demucs                          | 4350 MiB 52454 MiB |
+| 13 | densenet121                     | 1448 MiB 36314 MiB |
+| 14 | detectron2_fasterrcnn_r_101_c4  | 3348 MiB 5426 MiB |
+| 15 | detectron2_fasterrcnn_r_101_dc5 | 2576 MiB 5188 MiB |
+| 16 | detectron2_fasterrcnn_r_101_fpn | 2262 MiB 3752 MiB |
+| 17 | detectron2_fasterrcnn_r_50_c4   | 3260 MiB 5002 MiB |
+| 18 | detectron2_fasterrcnn_r_50_dc5  | 2502 MiB 4692 MiB |
+| 19 | detectron2_fasterrcnn_r_50_fpn  | 2206 MiB 3132 MiB | 
+| 20 | detectron2_fcos_r_50_fpn        | 2200 MiB NO IMP   |
+| 21 | detectron2_maskrcnn             | 2340 MiB 3298 MiB |
+| 22 | detectron2_maskrcnn_r_101_c4    | 3370 MiB 5438 MiB |
+| 23 | detectron2_maskrcnn_r_101_fpn   | 2270 MiB 4078 MiB |
+| 24 | detectron2_maskrcnn_r_50_c4     | 3208 MiB 4760 MiB |
+| 25 | detectron2_maskrcnn_r_50_fpn    | 2216 MiB 3408 MiB |
+| 26 | dlrm                            | 2538 MiB 3024 MiB |
+| 27 | doctr_det_predictor             | 1162 MiB NO IMP   |
+| 28 | doctr_reco_predictor            | 698 MiB NO IMP    |
+| 29 | drq                             | 578 MiB 2140 MiB  |
+| 30 | fastNLP_Bert                    | 968 MiB 6062 MiB  |
+| 31 | functorch_dp_cifar10            | 618 MiB 3888 MiB  |
+| 32 | functorch_maml_omniglot         | 534 MiB 5314 MiB  |
+| 33 | hf_Albert                       | 606 MiB 7692 MiB  |
+| 34 | hf_Bart                         | 1154 MiB 5030 MiB |
+| 35 | hf_Bert                         | 1008 MiB 5138 MiB |
+| 36 | hf_Bert_large                   | 1646 MiB 10952 MiB |
+| 37 | hf_BigBird                      | 1614 MiB 7430 MiB |
+| 38 | hf_DistilBert                   | 828 MiB 5724 MiB  |
+| 39 | hf_GPT2                         | 1106 MiB 7034 MiB |
+| 40 | hf_GPT2_large                   | 3752 MiB 29516 MiB |
+| 41 | hf_Longformer                   | 1770 MiB 6840 MiB |
+| 42 | hf_Reformer                     | 650 MiB 3524 MiB  |
+| 43 | hf_Roberta_base                 | 1976 MiB 13960 MiB |
+| 44 | hf_T5                           | 1464 MiB 21018 MiB |
+| 45 | hf_T5_base                      |
+| 46 | hf_T5_generate                  |
+| 47 | hf_T5_large                     |
+| 48 | hf_Whisper                      |
+| 49 | hf_clip                         |
+| 50 | hf_distil_whisper               |
 
 
 

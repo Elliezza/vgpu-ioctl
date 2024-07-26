@@ -1,3 +1,6 @@
+
+
+
 benchmark=(
 #"alexnet"
 #"basic_gnn_edgecnn"
@@ -16,8 +19,8 @@ benchmark=(
 #"detectron2_fasterrcnn_r_50_fpn"
 #"detectron2_fcos_r_50_fpn"
 #"detectron2_maskrcnn"
-"detectron2_maskrcnn_r_101_c4"
-"detectron2_maskrcnn_r_101_fpn"
+#"detectron2_maskrcnn_r_101_c4"
+#"detectron2_maskrcnn_r_101_fpn"
 #"detectron2_maskrcnn_r_50_c4"
 #"detectron2_maskrcnn_r_50_fpn"
 #"dlrm"
@@ -36,68 +39,68 @@ benchmark=(
 #"hf_GPT2"
 #"hf_GPT2_large"
 #"hf_Longformer"
-#"hf_Reformer"
-#"hf_Roberta_base"
-#"hf_T5"
-#"hf_T5_base"
-#"hf_T5_generate"
-#"hf_T5_large"
-#"hf_Whisper"
-#"hf_clip"
-#"hf_distil_whisper"
-#"lennard_jones"
-#"llama"
-#"llama_v2_7b_16h"
-#"llava"
-#"maml"
-#"maml_omniglot"
-#"microbench_unbacked_tolist_sum"
-#"mnasnet1_0"
-#"mobilenet_v2"
-#"mobilenet_v2_quantized_qat"
-#"mobilenet_v3_large"
-#"moco"
-#"moondream"
-#"nanogpt"
-#"nvidia_deeprecommender"
-#"opacus_cifar10"
-#"phlippe_densenet"
-#"phlippe_resnet"
-#"pyhpc_equation_of_state"
-#"pyhpc_isoneutral_mixing"
-#"pyhpc_turbulent_kinetic_energy"
-#"pytorch_CycleGAN_and_pix2pix"
-#"pytorch_stargan"
-#"pytorch_unet"
-#"resnet152"
-#"resnet18"
-#"resnet50"
-#"resnet50_quantized_qat"
-#"resnext50_32x4d"
-#"sam"
-#"sam_fast"
-#"shufflenet_v2_x1_0"
-#"simple_gpt"
-#"simple_gpt_tp_manual"
-#"soft_actor_critic"
-#"speech_transformer"
-#"squeezenet1_1"
-#"stable_diffusion_text_encoder"
-#"stable_diffusion_unet"
-#"tacotron2"
-#"timm_efficientdet"
-#"timm_efficientnet"
-#"timm_nfnet"
-#"timm_regnet"
-#"timm_resnest"
-#"timm_vision_transformer"
-#"timm_vision_transformer_large"
-#"timm_vovnet"
-#"torch_multimodal_clip"
-#"tts_angular"
-#"vgg16"
-#"vision_maskrcnn"
-#"yolov3"
+"hf_Reformer"
+"hf_Roberta_base"
+"hf_T5"
+"hf_T5_base"
+"hf_T5_generate"
+"hf_T5_large"
+"hf_Whisper"
+"hf_clip"
+"hf_distil_whisper"
+"lennard_jones"
+"llama"
+"llama_v2_7b_16h"
+"llava"
+"maml"
+"maml_omniglot"
+"microbench_unbacked_tolist_sum"
+"mnasnet1_0"
+"mobilenet_v2"
+"mobilenet_v2_quantized_qat"
+"mobilenet_v3_large"
+"moco"
+"moondream"
+"nanogpt"
+"nvidia_deeprecommender"
+"opacus_cifar10"
+"phlippe_densenet"
+"phlippe_resnet"
+"pyhpc_equation_of_state"
+"pyhpc_isoneutral_mixing"
+"pyhpc_turbulent_kinetic_energy"
+"pytorch_CycleGAN_and_pix2pix"
+"pytorch_stargan"
+"pytorch_unet"
+"resnet152"
+"resnet18"
+"resnet50"
+"resnet50_quantized_qat"
+"resnext50_32x4d"
+"sam"
+"sam_fast"
+"shufflenet_v2_x1_0"
+"simple_gpt"
+"simple_gpt_tp_manual"
+"soft_actor_critic"
+"speech_transformer"
+"squeezenet1_1"
+"stable_diffusion_text_encoder"
+"stable_diffusion_unet"
+"tacotron2"
+"timm_efficientdet"
+"timm_efficientnet"
+"timm_nfnet"
+"timm_regnet"
+"timm_resnest"
+"timm_vision_transformer"
+"timm_vision_transformer_large"
+"timm_vovnet"
+"torch_multimodal_clip"
+"tts_angular"
+"vgg16"
+"vision_maskrcnn"
+"yolov3"
 )
 
 echo "benchmark     eval     train" > result.log
@@ -109,7 +112,17 @@ do
 echo "Running"
 echo ${benchmark[i]}
 
-docker pull harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-${benchmark[i]}
+for j in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 #retry pulling image
+do
+        docker pull harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-${benchmark[i]}
+        STATUS=$?
+        if [ $STATUS -ne 0 ]; then
+                echo "Failed to pull the Docker image."
+                sleep 60
+        else
+                break
+        fi
+done
 
 docker run -it --rm --gpus all -v work:/workspace/work harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-${benchmark[i]} python run.py -d cuda -t eval ${benchmark[i]} > eval.log
 
@@ -118,6 +131,11 @@ nvidia-smi --query-accounted-apps=gpu_name,gpu_uuid,pid,time,gpu_util,mem_util,m
 tail -n 1 gpu_usage.log >> eval.log
 gpu_usage_eval=$(tail -n 1 gpu_usage.log | awk -F, '{print $NF}' )
 
+if ! grep -q "Peak Memory" eval.log; then
+        gpu_usage_eval="ERROR"
+        cat eval.log >> error.log
+fi
+
 docker run -it --rm --gpus all -v work:/workspace/work harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-${benchmark[i]} python run.py -d cuda -t train ${benchmark[i]} > train.log
 
 nvidia-smi --query-accounted-apps=gpu_name,gpu_uuid,pid,time,gpu_util,mem_util,max_memory_usage --format=csv > gpu_usage.log
@@ -125,6 +143,10 @@ nvidia-smi --query-accounted-apps=gpu_name,gpu_uuid,pid,time,gpu_util,mem_util,m
 tail -n 1 gpu_usage.log >> train.log
 gpu_usage_train=$(tail -n 1 gpu_usage.log | awk -F, '{print $NF}' )
 
+if ! grep -q "Peak Memory" train.log; then
+        gpu_usage_train="ERROR"
+        cat train.log >> error.log
+fi
 echo  ${benchmark[i]} $gpu_usage_eval $gpu_usage_train >> result.log
 
 echo ${benchmark[i]} >> raw.log
@@ -135,7 +157,10 @@ docker image rm harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-$
 
 echo ${benchmark[i]}
 echo "Done"
-done
 
 rm gpu_usage.log eval.log train.log
+cat result.log
+
+done
+
 cat result.log
