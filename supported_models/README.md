@@ -72,12 +72,26 @@ image tag = auto-gen-$benchname
 | 42 | hf_Reformer                     | 650 MiB 3524 MiB  |
 | 43 | hf_Roberta_base                 | 1976 MiB 13960 MiB |
 | 44 | hf_T5                           | 1464 MiB 21018 MiB |
-| 45 | hf_T5_base                      |
-| 46 | hf_T5_generate                  |
-| 47 | hf_T5_large                     |
-| 48 | hf_Whisper                      |
-| 49 | hf_clip                         |
-| 50 | hf_distil_whisper               |
+| 45 | hf_T5_base                      | 2334 MiB 53204 MiB |
+| 46 | hf_T5_generate                  | 1342 MiB NO IMP   |
+| 47 | hf_T5_large                     | 3370 MiB 19474 MiB |
+| 48 | hf_Whisper                      | 726 MiB NO IMP    |
+| 49 | hf_clip                         | BUILD_ERROR       |
+| 50 | hf_distil_whisper               | 1680 MiB NO IMP   |
+| 51 | lennard_jones                   | 530 MiB 530 MiB   |
+| 52 | llama                           | 2830 MiB NO IMP   |
+| 53 | llama_v2_7b_16h                 | HF TOKEN          |
+| 54 | llava                           | 27764 MiB NO IMP  |
+| 55 | maml                            | 1678 MiB NO IMP   |
+| 56 | maml_omniglot                   | 534 MiB 668 MiB   |
+| 57 | microbench_unbacked_tolist_sum  | 492 MiB NO IMP    |
+| 58 | mnasnet1_0                      | 830 MiB 2956 MiB  |
+| 59 | mobilenet_v2                    | 888 MiB 9046 MiB  |
+| 60 | mobilenet_v2_quantized_qat      | |
+| 61 | mobilenet_v3_large              | |
+| 62 | moco                            | |
+| 63 | moondream                       | |
+| 64 | nanogpt                         | |
 
 
 
