@@ -1,10 +1,10 @@
 benchmark=(
-"alexnet"
-"basic_gnn_edgecnn"
-"basic_gnn_gcn"
-"basic_gnn_gin"
-"basic_gnn_sage"
-"cm3leon_generate"
+#"alexnet"
+#"basic_gnn_edgecnn"
+#"basic_gnn_gcn"
+#"basic_gnn_gin"
+#"basic_gnn_sage"
+#"cm3leon_generate"
 "dcgan"
 "demucs"
 "densenet121"
@@ -100,19 +100,30 @@ benchmark=(
 "yolov3"
 )
 
+benchmark2=(
+"basic_gnn_edgecnn"
+"basic_gnn_gcn"
+"basic_gnn_gin"
+"basic_gnn_sage"
+"cm3leon_generate"
+)
+
 for i in "${!benchmark[@]}"
 do
 	echo "${benchmark[i]}"
 
-	mkdir "${benchmark[i]}"
+	#mkdir "${benchmark[i]}"
 
 	cd ${benchmark[i]}
 
-	sed "s/\$REPLACE/${benchmark[i]}/g" ../run_PASS_if_return_nonzero_template.sh > run_PASS_if_return_nonzero.sh
-	sed "s/\$REPLACE/${benchmark[i]}/g" ../run_PASS_if_return_zero_template.sh > run_PASS_if_return_zero.sh
-	sed "s/\$REPLACE/${benchmark[i]}/g" ../template.dockerfile > ${benchmark[i]}.dockerfile
+	#sed "s/\$REPLACE/${benchmark[i]}/g" ../run_PASS_if_return_nonzero_template.sh > run_PASS_if_return_nonzero.sh
+	#sed "s/\$REPLACE/${benchmark[i]}/g" ../run_PASS_if_return_zero_template.sh > run_PASS_if_return_zero.sh
+	#sed "s/\$REPLACE/${benchmark[i]}/g" ../template.dockerfile > ${benchmark[i]}.dockerfile
 
-	#echo "docker build -t harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-${benchmark[i]} -f ${benchmark[i]}.dockerfile ."
+	docker build -t harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-${benchmark[i]} -f ${benchmark[i]}.dockerfile .
+	
+	docker push harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-${benchmark[i]}
+	docker image rm harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-${benchmark[i]}
 
         cd ..
 

@@ -25,6 +25,13 @@ eval: python run.py -d cuda -t eval $benchname
 | LearningToPaint    | py311-53d98e3-LearningToPaint         | eval - 2434 MiB (2.1907 GB) train - 2416 MiB (2.2668 GB)   |
 | Super_SloMo        | py311-53d98e3-Super_SloMo             | eval - 1952 MiB (2.7766 GB) train - 7040 MiB (7.7454 GB)   |
 | alexnet            | auto-gen-alexnet                      | eval - 1140 MiB (1.6731 GB) train - 2798 MiB (3.6028 GB)   |
+| basic_gnn_edgecnn  | auto-gen-basic_gnn_edgecnn            | eval - 820 MiB (1.6711 GB) train - 1472 MiB (2.3079 GB)   |
+| basic_gnn_gcn      | auto-gen-basic_gnn_gcn                |    |
+| basic_gnn_gin      | auto-gen-basic_gnn_gin                |    |
+| basic_gnn_sage     | auto-gen-basic_gnn_sage               |    |
+| cm3leon_generate   | auto-gen-cm3leon_generate             |    |
+|        |     |    |
+|        |     |    |
 |        |     |    |
 |        |     |    |
 |        |     |    |
