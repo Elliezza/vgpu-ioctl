@@ -87,9 +87,9 @@ image tag = auto-gen-$benchname
 | 57 | microbench_unbacked_tolist_sum  | 492 MiB NO IMP    |
 | 58 | mnasnet1_0                      | 830 MiB 2956 MiB  |
 | 59 | mobilenet_v2                    | 888 MiB 9046 MiB  |
-| 60 | mobilenet_v2_quantized_qat      | |
-| 61 | mobilenet_v3_large              | |
-| 62 | moco                            | |
+| 60 | mobilenet_v2_quantized_qat      | ONLYCPU 12534 MiB |
+| 61 | mobilenet_v3_large              | MODEL DOWNLOAD FAIL |
+| 62 | moco                            | BUILD FAIL NEED GPU |
 | 63 | moondream                       | |
 | 64 | nanogpt                         | |
 
