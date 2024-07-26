@@ -26,12 +26,20 @@ eval: python run.py -d cuda -t eval $benchname
 | Super_SloMo        | py311-53d98e3-Super_SloMo             | eval - 1952 MiB (2.7766 GB) train - 7040 MiB (7.7454 GB)   |
 | alexnet            | auto-gen-alexnet                      | eval - 1140 MiB (1.6731 GB) train - 2798 MiB (3.6028 GB)   |
 | basic_gnn_edgecnn  | auto-gen-basic_gnn_edgecnn            | eval - 820 MiB (1.6711 GB) train - 1472 MiB (2.3079 GB)   |
-| basic_gnn_gcn      | auto-gen-basic_gnn_gcn                |    |
-| basic_gnn_gin      | auto-gen-basic_gnn_gin                |    |
-| basic_gnn_sage     | auto-gen-basic_gnn_sage               |    |
-| cm3leon_generate   | auto-gen-cm3leon_generate             |    |
-|        |     |    |
-|        |     |    |
-|        |     |    |
-|        |     |    |
-|        |     |    |
+| basic_gnn_gcn      | auto-gen-basic_gnn_gcn                | eval - 648 MiB train - 710 MiB    |
+| basic_gnn_gin      | auto-gen-basic_gnn_gin                | eval - 622 MiB train - 630 MiB   |
+| basic_gnn_sage     | auto-gen-basic_gnn_sage               | eval - 592 MiB train - 630 MiB   |
+| cm3leon_generate   | auto-gen-cm3leon_generate             | eval - 3334 MiB train - ERROR   |
+
+
+Autogeneration model results:
+image tag = auto-gen-$benchname
+
+| Model  | Memory Usage (eval train) |
+|--------|---------------------------|
+| dcgan | 752 MiB 728 MiB |
+| demucs | 4350 MiB 52454 MiB |
+| densenet121 | 1448 MiB 36314 MiB |
+| detectron2_fasterrcnn_r_101_c4 | 3348 MiB 5426 MiB |
+
+
