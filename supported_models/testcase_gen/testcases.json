@@ -1,0 +1,4905 @@
+{
+    "dataset_name": "pytorch_set_1",
+    "testcases": [
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 288,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-test-BERT_pytorch-yj",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 720,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-test-BERT_pytorch-yj",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1152,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-test-BERT_pytorch-yj",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1296,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-test-BERT_pytorch-yj",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1368,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-test-BERT_pytorch-yj",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1425,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-test-BERT_pytorch-yj",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1584,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-test-BERT_pytorch-yj",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 486,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-LearningToPaint",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1217,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-LearningToPaint",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1947,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-LearningToPaint",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2190,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-LearningToPaint",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2312,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-LearningToPaint",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2409,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-LearningToPaint",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2677,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-LearningToPaint",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 390,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-Super_SloMo",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 976,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-Super_SloMo",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1561,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-Super_SloMo",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1756,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-Super_SloMo",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1854,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-Super_SloMo",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1932,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-Super_SloMo",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2147,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:py311-53d98e3-Super_SloMo",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 228,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-alexnet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 570,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-alexnet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 912,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-alexnet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1026,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-alexnet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1083,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-alexnet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1128,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-alexnet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1254,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-alexnet",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 164,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_edgecnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 410,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_edgecnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 656,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_edgecnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 738,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_edgecnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 779,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_edgecnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 811,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_edgecnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 902,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_edgecnn",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 129,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_gcn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 324,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_gcn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 518,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_gcn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 583,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_gcn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 615,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_gcn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 641,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_gcn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 712,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_gcn",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 118,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_sage",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 296,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_sage",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 473,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_sage",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 532,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_sage",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 562,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_sage",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 586,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_sage",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 651,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-basic_gnn_sage",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 666,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-cm3leon_generate",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1667,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-cm3leon_generate",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2667,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-cm3leon_generate",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3000,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-cm3leon_generate",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3167,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-cm3leon_generate",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3300,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-cm3leon_generate",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3667,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-cm3leon_generate",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 150,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dcgan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 376,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dcgan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 601,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dcgan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 676,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dcgan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 714,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dcgan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 744,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dcgan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 827,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dcgan",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 870,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-demucs",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2175,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-demucs",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3480,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-demucs",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3915,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-demucs",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 4132,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-demucs",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 4306,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-demucs",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 4785,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-demucs",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 289,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-densenet121",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 724,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-densenet121",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1158,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-densenet121",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1303,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-densenet121",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1375,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-densenet121",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1433,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-densenet121",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1592,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-densenet121",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 500,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_fasterrcnn_r_50_dc5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1251,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_fasterrcnn_r_50_dc5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2001,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_fasterrcnn_r_50_dc5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2251,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_fasterrcnn_r_50_dc5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2376,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_fasterrcnn_r_50_dc5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2476,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_fasterrcnn_r_50_dc5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2752,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_fasterrcnn_r_50_dc5",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 468,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_maskrcnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1170,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_maskrcnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1872,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_maskrcnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2106,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_maskrcnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2223,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_maskrcnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2316,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_maskrcnn",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2574,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-detectron2_maskrcnn",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 507,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dlrm",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1269,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dlrm",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2030,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dlrm",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2284,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dlrm",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2411,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dlrm",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2512,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dlrm",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2791,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-dlrm",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 139,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-doctr_reco_predictor",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 349,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-doctr_reco_predictor",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 558,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-doctr_reco_predictor",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 628,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-doctr_reco_predictor",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 663,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-doctr_reco_predictor",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 691,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-doctr_reco_predictor",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 767,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-doctr_reco_predictor",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 115,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-drq",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 289,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-drq",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 462,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-drq",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 520,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-drq",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 549,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-drq",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 572,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-drq",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 635,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-drq",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 193,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-fastNLP_Bert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 484,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-fastNLP_Bert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 774,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-fastNLP_Bert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 871,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-fastNLP_Bert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 919,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-fastNLP_Bert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 958,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-fastNLP_Bert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1064,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-fastNLP_Bert",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 106,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-functorch_maml_omniglot",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 267,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-functorch_maml_omniglot",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 427,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-functorch_maml_omniglot",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 480,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-functorch_maml_omniglot",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 507,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-functorch_maml_omniglot",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 528,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-functorch_maml_omniglot",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 587,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-functorch_maml_omniglot",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 121,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Albert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 303,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Albert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 484,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Albert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 545,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Albert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 575,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Albert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 599,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Albert",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 666,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Albert",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 230,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bart",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 577,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bart",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 923,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bart",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1038,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bart",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1096,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bart",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1142,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bart",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1269,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bart",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 329,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bert_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 823,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bert_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1316,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bert_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1481,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bert_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1563,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bert_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1629,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bert_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1810,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Bert_large",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 322,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_BigBird",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 807,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_BigBird",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1291,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_BigBird",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1452,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_BigBird",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1533,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_BigBird",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1597,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_BigBird",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1775,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_BigBird",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 750,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_GPT2_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1876,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_GPT2_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3001,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_GPT2_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3376,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_GPT2_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3564,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_GPT2_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3714,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_GPT2_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 4127,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_GPT2_large",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 354,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Longformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 885,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Longformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1416,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Longformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1593,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Longformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1681,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Longformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1752,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Longformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1947,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Longformer",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 130,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Reformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 325,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Reformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 520,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Reformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 585,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Reformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 617,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Reformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 643,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Reformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 715,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Reformer",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 395,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Roberta_base",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 988,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Roberta_base",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1580,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Roberta_base",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1778,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Roberta_base",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1877,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Roberta_base",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1956,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Roberta_base",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2173,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_Roberta_base",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 292,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 732,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1171,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1317,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1390,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1449,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1610,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 674,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1685,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2696,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3033,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3201,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3336,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5_large",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3707,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_T5_large",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 336,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_distil_whisper",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 840,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_distil_whisper",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1344,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_distil_whisper",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1512,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_distil_whisper",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1596,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_distil_whisper",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1663,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_distil_whisper",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1848,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-hf_distil_whisper",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 566,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llama",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1415,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llama",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2264,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llama",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2547,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llama",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2688,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llama",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2801,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llama",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3113,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llama",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 5552,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llava",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 13882,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llava",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 22211,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llava",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 24987,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llava",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 26375,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llava",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 27486,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llava",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 30540,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-llava",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 335,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-maml",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 839,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-maml",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1342,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-maml",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1510,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-maml",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1594,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-maml",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1661,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-maml",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1845,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-maml",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 98,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-microbench_unbacked_tolist_sum",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 246,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-microbench_unbacked_tolist_sum",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 393,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-microbench_unbacked_tolist_sum",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 442,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-microbench_unbacked_tolist_sum",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 467,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-microbench_unbacked_tolist_sum",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 487,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-microbench_unbacked_tolist_sum",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 541,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-microbench_unbacked_tolist_sum",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 166,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mnasnet1_0",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 415,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mnasnet1_0",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 664,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mnasnet1_0",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 747,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mnasnet1_0",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 788,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mnasnet1_0",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 821,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mnasnet1_0",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 913,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mnasnet1_0",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 177,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mobilenet_v2",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 444,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mobilenet_v2",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 710,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mobilenet_v2",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 799,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mobilenet_v2",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 843,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mobilenet_v2",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 879,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mobilenet_v2",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 976,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-mobilenet_v2",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1222,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-moondream",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3057,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-moondream",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 4891,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-moondream",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 5502,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-moondream",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 5808,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-moondream",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 6052,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-moondream",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 6725,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-moondream",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 207,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nanogpt",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 518,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nanogpt",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 828,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nanogpt",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 932,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nanogpt",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 984,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nanogpt",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1025,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nanogpt",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1139,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nanogpt",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 376,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nvidia_deeprecommender",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 942,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nvidia_deeprecommender",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1507,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nvidia_deeprecommender",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1695,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nvidia_deeprecommender",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1789,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nvidia_deeprecommender",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1865,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nvidia_deeprecommender",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2072,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-nvidia_deeprecommender",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 123,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-opacus_cifar10",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 309,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-opacus_cifar10",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 494,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-opacus_cifar10",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 556,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-opacus_cifar10",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 587,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-opacus_cifar10",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 611,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-opacus_cifar10",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 679,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-opacus_cifar10",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 190,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-phlippe_densenet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 477,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-phlippe_densenet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 763,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-phlippe_densenet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 858,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-phlippe_densenet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 906,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-phlippe_densenet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 944,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-phlippe_densenet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1049,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-phlippe_densenet",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 278,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_equation_of_state",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 696,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_equation_of_state",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1113,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_equation_of_state",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1252,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_equation_of_state",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1322,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_equation_of_state",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1378,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_equation_of_state",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1531,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_equation_of_state",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 208,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_isoneutral_mixing",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 520,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_isoneutral_mixing",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 832,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_isoneutral_mixing",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 936,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_isoneutral_mixing",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 988,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_isoneutral_mixing",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1029,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_isoneutral_mixing",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1144,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pyhpc_isoneutral_mixing",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 3454,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_CycleGAN_and_pix2pix",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 8637,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_CycleGAN_and_pix2pix",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 13819,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_CycleGAN_and_pix2pix",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 15546,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_CycleGAN_and_pix2pix",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 16410,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_CycleGAN_and_pix2pix",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 17101,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_CycleGAN_and_pix2pix",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 19001,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_CycleGAN_and_pix2pix",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1094,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_stargan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 2735,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_stargan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 4376,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_stargan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 4923,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_stargan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 5196,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_stargan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 5415,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_stargan",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 6017,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_stargan",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 293,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_unet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 733,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_unet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1172,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_unet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1319,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_unet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1392,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_unet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1451,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_unet",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1612,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-pytorch_unet",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 248,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet152",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 621,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet152",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 993,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet152",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1117,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet152",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1179,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet152",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1229,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet152",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 1366,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet152",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 129,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet18",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 323,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet18",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 516,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet18",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 581,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet18",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 613,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet18",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 639,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet18",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 710,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-resnet18",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 108,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-soft_actor_critic",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 271,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-soft_actor_critic",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 433,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-soft_actor_critic",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 487,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-soft_actor_critic",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 514,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-soft_actor_critic",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 536,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-soft_actor_critic",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 596,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-soft_actor_critic",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 146,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-squeezenet1_1",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 367,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-squeezenet1_1",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 587,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-squeezenet1_1",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 660,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-squeezenet1_1",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 697,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-squeezenet1_1",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 726,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-squeezenet1_1",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 807,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-squeezenet1_1",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 134,
+                    "percentage": 20,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-timm_vision_transformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 337,
+                    "percentage": 50,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-timm_vision_transformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 539,
+                    "percentage": 80,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-timm_vision_transformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 606,
+                    "percentage": 90,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-timm_vision_transformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 640,
+                    "percentage": 95,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-timm_vision_transformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 667,
+                    "percentage": 99,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-timm_vision_transformer",
+                    "script": "/scripts/run_PASS_if_return_nonzero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        },
+        {
+            "owner": "wangsiqi",
+            "num_containers": 1,
+            "container": [
+                {
+                    "vmem_limit": 741,
+                    "percentage": 110,
+                    "image": "harbor.4pd.io/sagegpt-aio/pk_platform/torch-benchmark:auto-gen-timm_vision_transformer",
+                    "script": "/scripts/run_PASS_if_return_zero.sh",
+                    "timeout": 120,
+                    "output": "/results/test_case_yj.log"
+                }
+            ]
+        }
+    ]
+}
