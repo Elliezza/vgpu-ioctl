@@ -96,5 +96,38 @@ image tag = auto-gen-$benchname
 | 66 | opacus_cifar10                  | 618 MiB 3658 MiB  |
 | 67 | phlippe_densenet                | 954 MiB 2146 MiB  |
 | 68 | phlippe_resnet                  | 588 MiB 756 MiB   |
-
-
+| 69 | pyhpc_equation_of_state         | 1392 MiB NOT IMP  |
+| 70 | pyhpc_isoneutral_mixing         | 1040 MiB NOT IMP  |
+| 71 | pyhpc_turbulent_kinetic_energy  | 1016 MiB NOT IMP  |
+| 72 | pytorch_CycleGAN_and_pix2pix    | 17274 MiB 19838 MiB |
+| 73 | pytorch_stargan                 | 5470 MiB 37312 MiB |
+| 74 | pytorch_unet                    | 1466 MiB 2866 MiB |
+| 75 | resnet152                       | 1242 MiB 25214 MiB |
+| 76 | resnet18                        | 646 MiB 3302 MiB  |
+| 77 | resnet50                        | 1148 MiB 22066 MiB |
+| 78 | resnet50_quantized_qat          | ONLY CPU 6976 MiB |
+| 79 | resnext50_32x4d                 | 754 MiB 20284 MiB |
+| 80 | sam                             | |
+| 81 | sam_fast                        | |
+| 82 | shufflenet_v2_x1_0              | |
+| 83 | simple_gpt                      | |
+| 84 | simple_gpt_tp_manual            | |
+| 85 | soft_actor_critic               | 542 MiB 642 MiB   |
+| 86 | speech_transformer              | |
+| 87 | squeezenet1_1                   | 734 MiB 2440 MiB  |
+| 88 | stable_diffusion_text_encoder   | |
+| 89 | stable_diffusion_unet           | |
+| 90 | tacotron2                       | |
+| 91 | timm_efficientdet               | |
+| 92 | timm_efficientnet               | |
+| 93 | timm_nfnet                      | |
+| 94 | timm_regnet                     | |
+| 95 | timm_resnest                    | |
+| 96 | timm_vision_transformer         |  674 MiB 2794 MiB |
+| 97 | timm_vision_transformer_large   | |
+| 98 | timm_vovnet                     | |
+| 99 | torch_multimodal_clip           | |
+| 100 | tts_angular                    | |
+| 101 | vgg16                          | |
+| 102 | vision_maskrcnn                | |
+| 103 | yolov3                         | |
